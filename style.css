@@ -1,0 +1,23 @@
+body {
+  background-image: url("lightning-striking.jpg");
+    /* Full height */
+    height: 100%;
+      /* Center and scale the image nicely */
+    background-position: fill;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill; 
+  }
+  .jumbotron {
+      background-image: url("worldwide_weather.jpg");
+      background-size: 100% 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      text-align: center;
+      color: white;
+    }
+  @media only screen and (max-width: 600px) {
+    res {
+      width: 75%;
+    }
+  }
