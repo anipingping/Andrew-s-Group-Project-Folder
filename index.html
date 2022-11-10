@@ -31,26 +31,29 @@
           <div class="panel-heading">
             <h3 class="panel-title">Summary Panel</h3>
           </div>
-          <div id="sample-metadata" class="panel-body"></div>
+          <div id="summary" class="panel-body"></div>
         </div>
       </div>
-      <div class="col-md-5 res">
-        <div id="bar"></div>
+      <div class="col-sm-3">
+        <div class="col d-flex align-items-start text-center">
+          <div>
+            <h3>Percent of Days at Freezing, Cold, Warm or Hot</h3>
+            <div id="tempPie"></div>
+          </div>
+        </div>
+        <div class="col-md-5 ms-md-auto">
+          <div>
+            <h3>Humidity Donut Chart</h3>
+            <div id="humidDonut"></div>
+          </div>
       </div>
-      <div class="col-md-5 res">
-        <div id="gauge"></div>
+
+
       </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div id="bubble"></div>
-      </div>
-    </div>
-  </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="js/charts.js"></script>
+  <script src="js/charts2.js"></script>
 </body>
 
 </html>
